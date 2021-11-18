@@ -123,6 +123,7 @@ p {
     width: 40%;
     border: 2px solid #EEE;
     margin-bottom: .5rem;
+    object-fit: cover;
 }
 
 span {
@@ -130,4 +131,13 @@ span {
     margin-left: 2rem;
     color: #222;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 1150px) {
+    .nav-link {
+        text-align: center;
+        height: 4rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
 }
