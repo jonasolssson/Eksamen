@@ -133,6 +133,40 @@ span {
     font-weight: 600;
 }
 
+
+ul{
+    color: #EEE;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: medium;
+}
+
+li{
+    color: #EEE;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    font-size: medium;
+}
+
+i{
+    color: #EEE;
+}
+
+.hyperlinks{
+    color: #84c2f8;
+    text-decoration: underline;
+}
+
+.smartbilder{
+    margin-left: 2rem;
+    height: 50%;
+    width: 50%;
+}
+
+figcaption{
+    margin-left: 2rem;
+}
+
 @media only screen and (max-width: 1150px) {
     .nav-link {
         text-align: center;
