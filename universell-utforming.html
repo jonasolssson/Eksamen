@@ -11,6 +11,7 @@
 
     <nav>
         <a id="velkommen" href="./index.html">Velkommen</a>
+        <div class="burger"></div>
         <div class="link-container link-container-inaktiv">
             <a href="./refleksjon.html" class="nav-link">Refleksjon</a>
             <a href="./universell-utforming.html" class="nav-link aktiv">Universell Utforming</a>
@@ -41,4 +42,12 @@
     </section>
 
 </body>
+
+<script>
+    let burger = document.querySelector('.burger')
+    let menu = document.querySelector('.link-container')
+    burger.addEventListener('click', function() {
+        menu.classList.remove('link-container-inaktiv')
+    })
+</script>
 </html>
