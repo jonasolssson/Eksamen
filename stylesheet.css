@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+body {
+    background-color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    background-color: rgba(50,50,50,.1);
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out, .5s;
+}
+
+.nav-link:hover {
+    background-color: rgba(50,50,50,.3);
+}
+
+#velkommen {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: xxx-large;
+    font-weight: 200;
+}
+
+.innhold {
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: 8rem;
+}
+
+#index-quote {
+    margin-bottom: 1rem;
+    color: rgba(50,50,50,.8);
+    border: none;
+}
+
+#index-paragraph {
+    margin-left: 2rem;
+    color: #222;
+}
+
+.aktiv {
+    background-color: rgba(50,50,50,.3);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: large;
+    color: #FFF;
+    border-bottom: 2px solid #EEE;
+}
+
+section {
+    margin-top: .5rem;
+    width: 80%;
+    background-color: rgba(50,50,50,.7);
+    margin-left: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    /* height: 100vh; */
+    margin-bottom: 8rem;
+    border-top: 2px solid #222;
+}
+
+p {
+    color: #EEE;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: medium;
+}
+
+.tekst-og-bilde {
+    display: flex;
+}
+
+.innhold-img {
+    width: 40%;
+    border: 2px solid #EEE;
+    margin-bottom: .5rem;
+}
+
+span {
+    font-style: italic;
+    margin-left: 2rem;
+    color: #222;
+    font-weight: 600;
+}
