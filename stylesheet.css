@@ -123,6 +123,7 @@ p {
     width: 40%;
     border: 2px solid #EEE;
     margin-bottom: .5rem;
+    object-fit: cover;
 }
 
 span {
