@@ -59,19 +59,10 @@ nav {
     font-size: xxx-large;
     font-weight: 200;
 }
-
-section {
-    width: 80vw;
-    height: 80vh;
-    margin-left: 10vw;
-    margin-top: 2rem;
-    background-color: rgba(120,50,0,.9);
-    justify-content: center;
-}
 .innhold {
     width: 50%;
-    margin-left: 20vw;
-    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
 }
 p {
     color: red;
@@ -92,5 +83,12 @@ h1 {
     margin-left: 20vw;
     margin-top: 10rem;
 }
+.parent{
+    background-color: rgba(120,50,0,.9);
+    width: 60vw;
+    height: 50vh;
+   
+}
 .innhold2 > div {
+    border: solid 3px black;
 }
