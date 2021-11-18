@@ -141,3 +141,64 @@ span {
         padding-right: .5rem;
     }
 }
+
+@media only screen and (max-width: 850px) {
+    .link-container {
+        background-color: rgba(250,250,250,.98);
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        justify-content: space-around;
+        margin-left: -10vw;
+        width: 100vw;
+        transition: ease-in-out .5s;
+    }
+
+    .link-container-inaktiv {
+        margin-left: 180vw;
+    }
+
+    .nav-link {
+        width: 100%;
+    }
+
+    #velkommen {
+        margin-top: 2rem;
+        font-weight: 200;
+        font-size: xx-large;
+    }
+
+    nav {
+        background-color: rgba(250,250,250,.95);
+        position: fixed;
+        top: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+        border-bottom: 2px solid white;
+    }
+    .burger {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: rgba(50,50,50,.3);
+    }
+
+    .innhold {
+        margin-top: 12rem;
+        margin-left: 10vw;
+    }
+
+    h1 {
+        font-size: xxx-large;
+        font-weight: 200;
+    }
+
+    section {
+        width: 100%;
+        margin-left: 0;
+    }
+}
