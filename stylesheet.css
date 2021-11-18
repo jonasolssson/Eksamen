@@ -141,3 +141,23 @@ span {
         padding-right: .5rem;
     }
 }
+
+@media only screen and (max-width: 850px) {
+    .link-container {
+        background-color: rgba(250,250,250,.98);
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        justify-content: space-around;
+    }
+
+    .link-container-inaktiv {
+        margin-left: 180vw;
+    }
+
+    .nav-link {
+        width: 100%;
+    }
+}
