@@ -132,3 +132,12 @@ span {
     color: #222;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 1150px) {
+    .nav-link {
+        text-align: center;
+        height: 4rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+}
