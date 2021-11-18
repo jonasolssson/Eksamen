@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+body {
+    background-color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    background-color: rgba(139,69,19,.8);
+    height: 2rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out, .5s;
+}
+
+.nav-link:hover {
+    background-color: rgba(120,50,0,.9);
+}
+
+#velkommen {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: xxx-large;
+    font-weight: 200;
+}
+
+section {
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10vw;
+    margin-top: 2rem;
+    background-color: rgba(120,50,0,.9);
+    justify-content: center;
+}
+.innhold {
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: 10rem;
+}
+p {
+    color: red;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: medium;
+}
+h1 {
+    font-weight: 300;
+    font-size: xxx-large;
+    color: green;
+}
+
+.innhold2 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: 10rem;
+}
+.innhold2 > div {
+}

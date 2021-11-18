@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./stylesheet.css">
+    
+    <link rel="stylesheet" href="./fun.css">
     <title>Tull / Tøys</title>
 </head>
 <body>
 
     <nav>
         <a id="velkommen" href="./index.html">Velkommen</a>
-        <div class="link-container">
+        <div class="burger"></div>
+        <div class="link-container link-container-inaktiv">
             <a href="./refleksjon.html" class="nav-link">Refleksjon</a>
             <a href="./universell-utforming.html" class="nav-link">Universell Utforming</a>
             <a href="./aktuelt.html" class="nav-link">Smarttelefonen</a>
@@ -19,7 +21,34 @@
         </div>
     </nav>
 
-    <img src="./img/IMG_8655-edit.JPG" alt="" class="bg-img">
+    <div class="innhold">
+        <h1>Stuff you didnt know about brownies</h1>
+    </div>
+
+   <div class="innhold2">
+       <div>
+           <p>tekst1</p>
+       </div>
+       
+       <div>
+           <p>tekst2</p>
+       </div>
+       
+       <div>
+           <p>tekst3</p>
+       </div>
+   </div>
+    
+    
+    
+    <img src="./img/brownies.jpeg" alt="" class="bg-img">
     
 </body>
+<script>
+    let burger = document.querySelector('.burger')
+    let menu = document.querySelector('.link-container')
+    burger.addEventListener('click', function() {
+        menu.classList.remove('link-container-inaktiv')
+    })
+</script>
 </html>
