@@ -148,19 +148,19 @@ li{
     font-size: medium;
 }
 
-i{
-    color: #EEE;
-}
-
 .hyperlinks{
     color: #84c2f8;
     text-decoration: underline;
 }
+.hyperlinks > i{
+    color: #84c2f8;
+}
+    
 
 .smartbilder{
     margin-left: 2rem;
-    height: 50%;
-    width: 50%;
+    max-width: 100%;
+    size-adjust: auto;
 }
 
 figcaption{
