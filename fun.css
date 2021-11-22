@@ -41,7 +41,7 @@ main {
     margin-left: 3rem;
     margin-right: 3rem;
     border: 2px solid black;
-    height: 80vh;
+    height: auto;
 }
 
 nav {
@@ -50,10 +50,6 @@ nav {
     margin-top: 1rem;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    display: grid;
-    grid-template-rows: 100%;
-    justify-content: center;
-    align-items: center;
     border: 2px solid black;
     margin-bottom: 1rem;
     
@@ -61,26 +57,29 @@ nav {
 
 .link-container {
     display: grid;
-    grid-template-rows: 100% ;
-    justify-content: space-between;
-    vertical-align: middle;
+    height: 100%;
 }
 
 .nav-link {
-    margin: 2em;
     background-color:#FF8C42;
-    height: 3rem;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1em;
+    padding-top: 3em;
+}
+
+.nav-link:hover {
+    background-color: rgba(0,0,0,0.0);
 }
 
 .innhold {
     margin-top: 1rem;
     margin-right: 3rem;
     border: 2px solid black;
-    height: auto;
+    height:auto;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -92,4 +91,22 @@ nav {
 p {  
     margin-bottom: 10px;     /*ikke bruk px*/
     line-height: 1.5;
+}
+
+ul{
+    line-height: 2em;
+}
+
+ol{
+    padding-left: 2em;
+}
+
+footer{
+    background-color: #385b9f;
+    height: 5em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    text-align: left;
+    margin-bottom: 2rem;
 }
