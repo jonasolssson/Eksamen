@@ -8,9 +8,7 @@
     color: #222;
 }
 
-body {
-    background-color: #222;
-}
+/*properties for body?*/
 
 a {
     text-decoration: none;
@@ -25,70 +23,71 @@ a {
     object-fit: cover;
 }
 
-nav {
-    width: 100vw;
+header {
+    margin-top: 2rem;
+    font-size: xxx-large;
+    font-weight: 200;
+    border: 2px solid black;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #385b9f;
+}
+
+main {
     display: flex;
-    flex-direction: column;
+    gap: 1rem;
+    background-color: #ed6639;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    height: 80vh;
+}
+
+nav {
+    width: 10%;
+    height: 60vh;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    display: grid;
+    grid-template-rows: 100%;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+    
 }
 
 .link-container {
-    width: 80%;
-    display: flex;
+    display: grid;
+    grid-template-rows: 100% ;
     justify-content: space-between;
+    vertical-align: middle;
 }
 
 .nav-link {
-    background-color: rgba(139,69,19,.8);
-    height: 2rem;
-    width: 20%;
+    margin: 2em;
+    background-color:#FF8C42;
+    height: 3rem;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: ease-in-out, .5s;
 }
 
-.nav-link:hover {
-    background-color: rgba(120,50,0,.9);
-}
-
-#velkommen {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    font-size: xxx-large;
-    font-weight: 200;
-}
 .innhold {
-    width: 50%;
-    margin-left: 3rem;
-    margin-top: 3rem;
-}
-p {
-    color: red;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    font-size: medium;
-}
-h1 {
-    font-weight: 300;
-    font-size: xxx-large;
-    color: green;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    height: 60vh;
+    padding: 1rem;
+    
 }
 
-.innhold2 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    width: 50%;
-    margin-left: 20vw;
-    margin-top: 10rem;
+.tekst {
+    padding: 1rem;  
 }
-.parent{
-    background-color: rgba(120,50,0,.9);
-    width: 60vw;
-    height: 50vh;
-   
-}
-.innhold2 > div {
-    border: solid 3px black;
+
+p {  
+    margin-bottom: 10px;     /*ikke bruk px*/
+    line-height: 1.5;
 }
