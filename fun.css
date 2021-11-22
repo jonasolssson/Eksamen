@@ -46,14 +46,16 @@ main {
 
 nav {
     width: 10%;
-    height: 60vh;
+    height: auto;
     margin-top: 1rem;
     margin-left: 3rem;
+    margin-bottom: 1rem;
     display: grid;
     grid-template-rows: 100%;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
+    margin-bottom: 1rem;
     
 }
 
@@ -78,9 +80,9 @@ nav {
     margin-top: 1rem;
     margin-right: 3rem;
     border: 2px solid black;
-    height: 60vh;
+    height: auto;
     padding: 1rem;
-    
+    margin-bottom: 1rem;
 }
 
 .tekst {
