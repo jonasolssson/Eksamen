@@ -106,3 +106,45 @@ footer{
     margin-bottom: 2rem;
     padding: 1em;
 }
+
+@media only screen and (max-width: 750px) {
+    main {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: center;
+    }
+
+    .innhold {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: xxx-large;
+    }
+
+    header {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    footer {
+        margin-right: 5px;
+        margin-left: 5px;
+        height: auto;
+    }
+    nav {
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    .nav-link {
+        background-color: #eee;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
