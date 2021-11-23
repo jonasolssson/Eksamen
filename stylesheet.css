@@ -66,6 +66,15 @@ nav {
     margin-top: 8rem;
 }
 
+
+.oslomet{
+    z-index: -1;
+    opacity: .2;
+    width: 60vw;
+    size-adjust: auto;
+    display: flex;
+}
+
 #index-quote {
     margin-bottom: 1rem;
     color: rgba(50,50,50,.8);
@@ -144,16 +153,12 @@ ul{
     color: #EEE;
     margin-bottom: 2rem;
     margin-left: 2rem;
-    font-size: medium;
-    text-align: justify;
 }
 
 li{
     color: #EEE;
     margin-bottom: 0.5rem;
     margin-left: 2rem;
-    font-size: medium;
-    text-align: justify;
 }
 
 .hyperlinks{
@@ -166,15 +171,12 @@ li{
 
 .smartbilder{
     margin-left: 2rem;
-    max-width: 100%;
+
+    max-width: calc(100% - 2rem);
+    size-adjust: auto;
     border: 2px solid #EEE;
 }
 
-.endasmarterebilder{
-    margin-left: 2rem;
-    max-width: 96%;
-    border: 2px solid rgb(255, 255, 255);
-  }
 
 figcaption{
     margin-left: 2rem;
@@ -249,8 +251,9 @@ figcaption{
     section {
         width: 100%;
         margin-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 4rem;
     }
-
 
     .tekst-og-bilde {
         display: flex;
