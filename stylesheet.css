@@ -146,6 +146,7 @@ ul{
     margin-bottom: 2rem;
     margin-left: 2rem;
     font-size: medium;
+    text-align: justify;
 }
 
 li{
@@ -153,6 +154,7 @@ li{
     margin-bottom: 0.5rem;
     margin-left: 2rem;
     font-size: medium;
+    text-align: justify;
 }
 
 .hyperlinks{
@@ -169,6 +171,13 @@ li{
     size-adjust: auto;
     border: 2px solid #EEE;
 }
+
+.endasmarterebilder{
+    margin-left: 2rem;
+    max-width: 96%;
+    size-adjust: auto;
+    border: 2px solid rgb(255, 255, 255);
+  }
 
 figcaption{
     margin-left: 2rem;
@@ -243,6 +252,7 @@ figcaption{
         margin-left: 0;
     }
 
+
     .tekst-og-bilde {
         display: flex;
         flex-direction: column-reverse;
@@ -261,3 +271,4 @@ figcaption{
     }
     
 }
+
