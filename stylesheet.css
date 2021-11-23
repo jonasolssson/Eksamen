@@ -138,7 +138,6 @@ p {
     margin-bottom: .5rem;
     margin-left: 2rem;
     max-width: 100%;
-    size-adjust: auto;
     object-fit: cover;
 }
 
@@ -172,10 +171,12 @@ li{
 
 .smartbilder{
     margin-left: 2rem;
+
     max-width: calc(100% - 2rem);
     size-adjust: auto;
     border: 2px solid #EEE;
 }
+
 
 figcaption{
     margin-left: 2rem;
@@ -264,7 +265,6 @@ figcaption{
         border: 2px solid #EEE;
         margin-bottom: .5rem;
         margin-left: 2rem;
-        size-adjust: auto;
         object-fit: cover;
     }
     .tekst-og-bilde > p {
