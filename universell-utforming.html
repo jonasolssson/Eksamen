@@ -11,10 +11,11 @@
 
     <nav>
         <a id="velkommen" href="./index.html">Velkommen</a>
-        <div class="link-container">
+        <div class="burger"></div>
+        <div class="link-container link-container-inaktiv">
             <a href="./refleksjon.html" class="nav-link">Refleksjon</a>
             <a href="./universell-utforming.html" class="nav-link aktiv">Universell Utforming</a>
-            <a href="./aktuelt.html" class="nav-link">Aktuelt</a>
+            <a href="./aktuelt.html" class="nav-link">Smarttelefonen</a>
             <a href="./tullogtøys.html" class="nav-link">Tull & Tøys</a>
         </div>
     </nav>
@@ -30,10 +31,13 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia ut corporis id soluta minus animi modi commodi. Illum numquam cupiditate saepe, non harum consequatur, fugit sequi iste adipisci distinctio veritatis ratione accusantium facilis ab rerum suscipit illo explicabo repellat!</p>
 
         <div class="tekst-og-bilde">
-            <img class="innhold-img" src="./img/IMG_8515.JPG" alt="">
+            <figure>
+            <img class="innhold-img" src="./img/IMG_8515.JPG" alt="Bjørketre">
+            <figcaption>Et bjørketre</figcaption>
+            </figure>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, maxime eligendi voluptate debitis laborum a ipsum odio, quis incidunt quasi pariatur blanditiis illo quae quam deleniti ut magni iusto in repudiandae voluptatibus! In odio voluptatibus reprehenderit fugiat saepe magni eaque itaque iure esse rem. Vel temporibus velit delectus, perferendis voluptates repellat eaque vero eveniet enim impedit itaque ipsam, voluptas omnis incidunt nostrum quidem fuga. Quae beatae enim libero est ad?</p>
         </div>
-        <p>fig 1.1 <span>tre og sånn</span></p>
+        <!-- <p>fig 1.1 <span>tre og sånn</span></p> -->
 
         <h2>Tenk dette også da</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quia incidunt, magni porro eos ab quisquam voluptates nihil nam eveniet, voluptatem debitis corporis vitae suscipit ullam architecto numquam esse non necessitatibus, saepe sunt dicta cupiditate nemo? Commodi odit totam reiciendis quos doloremque ut reprehenderit quo eius ab provident minus, repellendus facere tempora illo illum nobis incidunt rerum? Reprehenderit, corrupti recusandae!</p>
@@ -41,4 +45,12 @@
     </section>
 
 </body>
+
+<script>
+    let burger = document.querySelector('.burger')
+    let menu = document.querySelector('.link-container')
+    burger.addEventListener('click', function() {
+        menu.classList.remove('link-container-inaktiv')
+    })
+</script>
 </html>
