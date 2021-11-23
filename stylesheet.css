@@ -139,6 +139,7 @@ ul{
     margin-bottom: 2rem;
     margin-left: 2rem;
     font-size: medium;
+    text-align: justify;
 }
 
 li{
@@ -146,6 +147,7 @@ li{
     margin-bottom: 0.5rem;
     margin-left: 2rem;
     font-size: medium;
+    text-align: justify;
 }
 
 .hyperlinks{
@@ -156,12 +158,18 @@ li{
     color: #84c2f8;
 }
     
-
 .smartbilder{
     margin-left: 2rem;
     max-width: 100%;
     size-adjust: auto;
 }
+
+.endasmarterebilder{
+    margin-left: 2rem;
+    max-width: 96%;
+    size-adjust: auto;
+    border: 2px solid rgb(255, 255, 255);
+  }
 
 figcaption{
     margin-left: 2rem;
