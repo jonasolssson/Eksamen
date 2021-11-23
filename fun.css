@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400&display=swap');
 
 * {
@@ -8,9 +9,7 @@
     color: #222;
 }
 
-body {
-    background-color: #222;
-}
+/*properties for body?*/
 
 a {
     text-decoration: none;
@@ -25,72 +24,92 @@ a {
     object-fit: cover;
 }
 
-nav {
-    width: 100vw;
+header {
+    margin-top: 2rem;
+    font-size: xxx-large;
+    font-weight: 200;
+    border: 2px solid black;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    background-color: #385b9f;
+}
+
+main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 1rem;
+    background-color: #ed6639;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    height: auto;
+}
+
+nav {
+    width: 10em;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    
 }
 
 .link-container {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    height: 100%;
 }
 
 .nav-link {
-    background-color: rgba(139,69,19,.8);
-    height: 2rem;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: ease-in-out, .5s;
+    background-color:#FF8C42;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1em;
+    padding-top: 3em;
 }
 
 .nav-link:hover {
-    background-color: rgba(120,50,0,.9);
+    background-color: rgba(0,0,0,0.0);
 }
 
-#velkommen {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    font-size: xxx-large;
-    font-weight: 200;
-}
-
-section {
-    width: 80vw;
-    height: 80vh;
-    margin-left: 10vw;
-    margin-top: 2rem;
-    background-color: rgba(120,50,0,.9);
-    justify-content: center;
-}
 .innhold {
-    width: 50%;
-    margin-left: 20vw;
-    margin-top: 10rem;
-}
-p {
-    color: red;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    font-size: medium;
-}
-h1 {
-    font-weight: 300;
-    font-size: xxx-large;
-    color: green;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    width: 80em;
+    height:auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-.innhold2 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    width: 50%;
-    margin-left: 20vw;
-    margin-top: 10rem;
+.tekst {
+    padding: 1rem;  
 }
-.innhold2 > div {
+
+p {  
+    margin-bottom: 10px;     /*ikke bruk px*/
+    line-height: 1.5;
 }
+
+ul{
+    line-height: 2em;
+}
+
+ol{
+    padding-left: 2em;
+}
+
+footer{
+    background-color: #385b9f;
+    height: 5em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid black;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+

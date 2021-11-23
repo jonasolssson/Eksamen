@@ -117,12 +117,19 @@ p {
 
 .tekst-og-bilde {
     display: flex;
+    flex-direction: row;
+}
+.tekst-og-bilde > p {
+    margin-left: 5rem;
 }
 
 .innhold-img {
-    width: 40%;
+    width: 100%;
     border: 2px solid #EEE;
     margin-bottom: .5rem;
+    margin-left: 2rem;
+    max-width: 100%;
+    size-adjust: auto;
     object-fit: cover;
 }
 
@@ -157,11 +164,12 @@ li{
 .hyperlinks > i{
     color: #84c2f8;
 }
-    
+
 .smartbilder{
     margin-left: 2rem;
     max-width: 100%;
     size-adjust: auto;
+    border: 2px solid #EEE;
 }
 
 .endasmarterebilder{
@@ -243,4 +251,24 @@ figcaption{
         width: 100%;
         margin-left: 0;
     }
+
+
+    .tekst-og-bilde {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .innhold-img {
+        width: 100%;
+        border: 2px solid #EEE;
+        margin-bottom: .5rem;
+        margin-left: 2rem;
+        size-adjust: auto;
+        object-fit: cover;
+    }
+    .tekst-og-bilde > p {
+        margin-left: 2rem;
+    }
+    
 }
+
