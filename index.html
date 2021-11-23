@@ -11,10 +11,11 @@
 
     <nav>
         <h1 id="velkommen">Velkommen</h1>
-        <div class="link-container">
+        <div class="burger"></div>
+        <div class="link-container link-container-inaktiv">
             <a href="./refleksjon.html" class="nav-link">Refleksjon</a>
             <a href="./universell-utforming.html" class="nav-link">Universell Utforming</a>
-            <a href="./aktuelt.html" class="nav-link">Aktuelt</a>
+            <a href="./aktuelt.html" class="nav-link">Smarttelefonen</a>
             <a href="./tullogtøys.html" class="nav-link">Tull & Tøys</a>
         </div>
     </nav>
@@ -23,8 +24,14 @@
 
     <div class="innhold">
         <h2 id="index-quote">Å være førsteklassing ved OsloMet</h2>
-        <p id="index-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde provident recusandae magnam ex sapiente itaque consequatur eaque nesciunt nisi!</p>
+        <p id="index-paragraph">Lorem ipsum dolor dolor sit amet consectetur adipisicing elit. Quaerat unde provident recusandae magnam ex sapiente itaque consequatur eaque nesciunt nisi!</p>
     </div>
-    
 </body>
+<script>
+    let burger = document.querySelector('.burger')
+    let menu = document.querySelector('.link-container')
+    burger.addEventListener('click', function() {
+        menu.classList.remove('link-container-inaktiv')
+    })
+</script>
 </html>

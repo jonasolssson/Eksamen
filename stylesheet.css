@@ -117,12 +117,18 @@ p {
 
 .tekst-og-bilde {
     display: flex;
+    flex-direction: row;
+}
+.tekst-og-bilde > p {
+    margin-left: 5rem;
 }
 
 .innhold-img {
-    width: 40%;
+    width: 100%;
     border: 2px solid #EEE;
     margin-bottom: .5rem;
+    margin-left: 2rem;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -133,6 +139,49 @@ span {
     font-weight: 600;
 }
 
+
+ul{
+    color: #EEE;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: medium;
+    text-align: justify;
+}
+
+li{
+    color: #EEE;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    font-size: medium;
+    text-align: justify;
+}
+
+.hyperlinks{
+    color: #84c2f8;
+    text-decoration: underline;
+}
+.hyperlinks > i{
+    color: #84c2f8;
+}
+
+.smartbilder{
+    margin-left: 2rem;
+    max-width: 100%;
+    border: 2px solid #EEE;
+}
+
+.endasmarterebilder{
+    margin-left: 2rem;
+    max-width: 96%;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+figcaption{
+    margin-left: 2rem;
+    margin-bottom: 2em;
+}
+
+
 @media only screen and (max-width: 1150px) {
     .nav-link {
         text-align: center;
@@ -141,3 +190,83 @@ span {
         padding-right: .5rem;
     }
 }
+
+@media only screen and (max-width: 850px) {
+    .link-container {
+        background-color: rgba(250,250,250,.98);
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        justify-content: space-around;
+        margin-left: -10vw;
+        width: 100vw;
+        transition: ease-in-out .5s;
+    }
+
+    .link-container-inaktiv {
+        margin-left: 180vw;
+    }
+
+    .nav-link {
+        width: 100%;
+    }
+
+    #velkommen {
+        margin-top: 2rem;
+        font-weight: 200;
+        font-size: xx-large;
+    }
+
+    nav {
+        background-color: rgba(250,250,250,.95);
+        position: fixed;
+        top: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+        border-bottom: 2px solid white;
+    }
+    .burger {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: rgba(50,50,50,.3);
+    }
+
+    .innhold {
+        margin-top: 12rem;
+        margin-left: 10vw;
+    }
+
+    h1 {
+        font-size: xxx-large;
+        font-weight: 200;
+    }
+
+    section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .tekst-og-bilde {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .innhold-img {
+        width: 100%;
+        border: 2px solid #EEE;
+        margin-bottom: .5rem;
+        margin-left: 2rem;
+        object-fit: cover;
+    }
+    .tekst-og-bilde > p {
+        margin-left: 2rem;
+    }
+    
+}
+
