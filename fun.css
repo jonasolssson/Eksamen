@@ -84,8 +84,7 @@ margin: 1em;
 }
 
 p {  
-    margin-bottom: 10px;     /*ikke bruk px*/
-    line-height: 2.0;
+    line-height: 2.5;   /*mellomrom mellom overskrifter og tekst??*/
 }
 
 ul{
@@ -163,7 +162,7 @@ q{
         top: 0;
         z-index: -1;
         object-fit: cover;
-        background-repeat: repeat-y;
+        background-repeat: repeat-y;  /*være med?*/
     }
 
     main {
