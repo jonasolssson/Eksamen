@@ -164,7 +164,6 @@ q{
         height: 100vh;
         position: fixed;
         top: 0;
-        
         object-fit: cover;
         background-repeat: repeat-y;  /*være med?*/
     }
