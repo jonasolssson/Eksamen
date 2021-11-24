@@ -85,7 +85,7 @@ margin: 1em;
 
 p {  
     margin-bottom: 10px;     /*ikke bruk px*/
-    line-height: 1.5;
+    line-height: 2.0;
 }
 
 ul{
@@ -150,8 +150,9 @@ footer > h4{
 
 .footertekst{
 font-size: xx-large;
-margin-left: 10em;
-margin-top: 1.5em;
+text-align: center;
+padding-top: 1em;
+width: 100%;
 }
 
 q{
@@ -214,5 +215,9 @@ q{
 
     main{
         border-radius: 25px;
+    }
+
+    footer{
+        flex-direction: column;
     }
 }
