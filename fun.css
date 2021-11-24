@@ -129,9 +129,6 @@ footer{
     flex-direction: column;
 }
 
-footer > h4{
-    margin-bottom: 0.5em;
-}
 
 .further-link{
     color: #A37A74;
@@ -141,7 +138,7 @@ footer > h4{
     height: 2em;
     padding: 0.3em;
     font-size: smaller;
-    margin: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .further-link:hover{
