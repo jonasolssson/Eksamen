@@ -155,6 +155,9 @@ q{
 
 @media only screen and (max-width: 750px) {
 
+    body{
+        color: #222;
+    }
 
     .bg-img {
         width: 100vw;
