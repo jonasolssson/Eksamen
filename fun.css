@@ -32,13 +32,13 @@ header {
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: center;
-    background-color: #385b9f;
+    background-color: #A37A74;
 }
 
 main {
     display: flex;
     gap: 1rem;
-    background-color: #ed6639;
+    background-color: #A8D0DB;
     margin-left: 3rem;
     margin-right: 3rem;
     border: 2px solid black;
@@ -60,14 +60,13 @@ nav {
 }
 
 .nav-link {
-font-size:normal;
 text-decoration: underline;
-margin: 1em;    
+margin: 1em;   
 }
 
 .nav-link:hover {
-    color: #385b9f;
-    background-color: antiquewhite;
+    color: #A37A74;
+    border: 0.5px solid#A37A74;
 }
 
 .innhold {
@@ -75,7 +74,7 @@ margin: 1em;
     margin-right: 3rem;
     border: 2px solid black;
     width: 70em;
-    height:auto;
+    height: auto;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -86,7 +85,7 @@ margin: 1em;
 
 p {  
     margin-bottom: 10px;     /*ikke bruk px*/
-    line-height: 1.5;
+    line-height: 2.0;
 }
 
 ul{
@@ -97,15 +96,61 @@ ol{
     padding-left: 2em;
 }
 
+figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.browniebilde{
+    margin-top: 2em;
+}
+
+.brownietekst{
+    text-align: center;
+}
+
 footer{
-    background-color: #385b9f;
-    height: 5em;
+    background-color: #A37A74;
+    height: auto;
     margin-left: 3rem;
     margin-right: 3rem;
     border: 2px solid black;
     text-align: left;
     margin-bottom: 2rem;
     padding: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.overskriftoglink{
+    display: flex;
+    flex-direction: column;
+}
+
+.further-link{
+    color: #A37A74;
+    background-color: black;
+    border: 0.5px solid#A8D0DB;
+    width: auto;
+    height: 2em;
+    padding: 0.3em;
+    font-size: smaller;
+    margin-bottom: 0.3em;
+}
+
+.further-link:hover{
+    background-color: #A8D0DB;
+}
+
+.footertekst{
+font-size: xx-large;
+text-align: center;
+padding-top: 1em;
+width: 100%;
+}
+
+q{
+    font-style: italic;
 }
 
 @media only screen and (max-width: 750px) {
@@ -119,6 +164,8 @@ footer{
     .innhold {
         width: 90%;
         margin-right: 0;
+        border-radius: 25px;
+        margin-top: 0.5em;
     }
 
     h1 {
@@ -126,26 +173,45 @@ footer{
     }
 
     header {
+        margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
+        border-radius: 25px ;
     }
 
-    footer {
-        margin-right: 5px;
-        margin-left: 5px;
-        height: auto;
-    }
     nav {
         margin-left: 0;
         width: 90%;
         height: auto;
+        margin-bottom: 0.5em;
     }
 
+    footer {
+        border-radius: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        height: auto;
+    }
+   
     .nav-link {
-        background-color: #eee;
-        height: 3rem;
+        height: 2rem;
+        border: 2px solid#A37A74;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 5px;
+    }
+    .nav-link:hover {
+        color: #A37A74;
+        border: 2px solid#A37A74
+    }
+
+    main{
+        border-radius: 25px;
+    }
+
+    footer{
+        flex-direction: column;
     }
 }
