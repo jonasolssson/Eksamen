@@ -154,6 +154,17 @@ q{
 }
 
 @media only screen and (max-width: 750px) {
+
+    .bg-img {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+        object-fit: cover;
+        background-repeat: repeat-y;
+    }
+
     main {
         flex-direction: column;
         margin-left: 5px;
