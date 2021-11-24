@@ -97,8 +97,8 @@ ol{
 }
 
 figure{
-    display: grid;
-    grid-template-rows: 50% 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .browniebilde{
@@ -107,8 +107,6 @@ figure{
 
 .brownietekst{
     text-align: center;
-    margin-left: 2em;
-
 }
 
 footer{
