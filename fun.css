@@ -60,14 +60,13 @@ nav {
 }
 
 .nav-link {
-font-size:normal;
 text-decoration: underline;
 margin: 1em;   
 }
 
 .nav-link:hover {
     color: #A37A74;
-    border: 1px solid#A37A74;
+    border: 0.5px solid#A37A74;
 }
 
 .innhold {
@@ -75,7 +74,7 @@ margin: 1em;
     margin-right: 3rem;
     border: 2px solid black;
     width: 70em;
-    height:auto;
+    height: auto;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -97,15 +96,66 @@ ol{
     padding-left: 2em;
 }
 
+figure{
+    display: grid;
+    grid-template-rows: 50% 40%;
+}
+
+.browniebilde{
+    margin-top: 2em;
+}
+
+.brownietekst{
+    text-align: center;
+    margin-left: 2em;
+
+}
+
 footer{
     background-color: #A37A74;
-    height: 5em;
+    height: auto;
     margin-left: 3rem;
     margin-right: 3rem;
     border: 2px solid black;
     text-align: left;
     margin-bottom: 2rem;
     padding: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.overskriftoglink{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > h4{
+    margin-bottom: 0.5em;
+}
+
+.further-link{
+    color: #A37A74;
+    background-color: black;
+    border: 0.5px solid#A8D0DB;
+    width: auto;
+    height: 2em;
+    padding: 0.3em;
+    font-size: smaller;
+    margin: 0.3em;
+}
+
+.further-link:hover{
+    background-color: #A8D0DB;
+}
+
+.footertekst{
+font-size: xx-large;
+margin-left: 10em;
+margin-top: 1.5em;
+}
+
+q{
+    font-style: italic;
 }
 
 @media only screen and (max-width: 750px) {
@@ -120,6 +170,7 @@ footer{
         width: 90%;
         margin-right: 0;
         border-radius: 25px;
+        margin-top: 0.5em;
     }
 
     h1 {
@@ -133,14 +184,11 @@ footer{
         border-radius: 25px ;
     }
 
-    main{
-        border-radius: 25px;
-    }
-
     nav {
         margin-left: 0;
         width: 90%;
         height: auto;
+        margin-bottom: 0.5em;
     }
 
     footer {
@@ -152,10 +200,19 @@ footer{
     }
    
     .nav-link {
-        height: 3rem;
+        height: 2rem;
         border: 2px solid#A37A74;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 5px;
+    }
+    .nav-link:hover {
+        color: #A37A74;
+        border: 2px solid#A37A74
+    }
+
+    main{
+        border-radius: 25px;
     }
 }
