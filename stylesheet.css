@@ -171,7 +171,6 @@ li{
 
 .smartbilder{
     margin-left: 2rem;
-
     max-width: calc(100% - 2rem);
     size-adjust: auto;
     border: 2px solid #EEE;
@@ -182,6 +181,18 @@ figcaption{
     margin-left: 2rem;
     margin-bottom: 2em;
 }
+
+/* figure {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+} */
 
 
 @media only screen and (max-width: 1150px) {
@@ -201,8 +212,8 @@ figcaption{
         height: 100vh;
         position: fixed;
         top: 0;
+        left: 0;
         justify-content: space-around;
-        margin-left: -10vw;
         width: 100vw;
         transition: ease-in-out .5s;
     }
