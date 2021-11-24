@@ -200,6 +200,8 @@ q{
 
     footer {
         border-radius: 25px;
+        border-bottom-left-radius:35px ;
+        border-bottom-right-radius:35px ;
         margin-right: 5px;
         margin-left: 5px;
         margin-bottom: 10px;
