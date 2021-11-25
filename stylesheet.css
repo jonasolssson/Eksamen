@@ -287,21 +287,8 @@ figcaption{
         margin-left: 2rem;
     }
 
-    .feilmelding1 {
-        margin-left: 2rem;
-        max-width: calc(100% - 2rem);
-        border: 2px solid #EEE;
-    }
-    
-    .ingenproblemer {
-        margin-left: 2rem;
-        max-width: calc(100% - 2rem);
-        border: 2px solid #EEE;
-    }
-
     #index-paragraph {
         margin-right: -25vw;
     }
-
 }
 
