@@ -124,6 +124,7 @@ footer{
 .overskriftoglink{
     display: flex;
     flex-direction: column;
+    width: 20em;
 }
 
 .further-link{
@@ -229,5 +230,12 @@ q{
 
     footer{
         flex-direction: column;
+    }
+    .overskriftoglink{
+        width: auto;
+    }
+
+    .further-link{
+        text-align: center;
     }
 }
