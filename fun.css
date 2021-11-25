@@ -160,12 +160,6 @@ q{
 
     .bg-img {
         opacity: 0.0;
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        object-fit: cover;
-        background-repeat: repeat-y;  /*være med?*/
     }
 
     main {
