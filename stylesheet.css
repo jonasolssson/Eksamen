@@ -71,7 +71,6 @@ nav {
     z-index: -1;
     opacity: .2;
     width: 60vw;
-    size-adjust: auto;
     display: flex;
 }
 
@@ -172,7 +171,6 @@ li{
 .smartbilder{
     margin-left: 2rem;
     max-width: calc(100% - 2rem);
-    size-adjust: auto;
     border: 2px solid #EEE;
 }
 
@@ -285,14 +283,12 @@ figcaption{
     .feilmelding1 {
         margin-left: 2rem;
         max-width: calc(100% - 2rem);
-        size-adjust: auto;
         border: 2px solid #EEE;
     }
     
     .ingenproblemer {
         margin-left: 2rem;
         max-width: calc(100% - 2rem);
-        size-adjust: auto;
         border: 2px solid #EEE;
     }
 
