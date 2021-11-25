@@ -184,18 +184,9 @@ figcaption{
     margin-bottom: 2em;
 }
 
-/* figure {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-} */
-
+#x-link {
+    display: none;
+}
 
 @media only screen and (max-width: 1150px) {
     .nav-link {
@@ -218,6 +209,8 @@ figcaption{
         justify-content: space-around;
         width: 100vw;
         transition: ease-in-out .5s;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .link-container-inaktiv {
@@ -225,7 +218,11 @@ figcaption{
     }
 
     .nav-link {
-        width: 100%;
+        width: 60%;
+    }
+
+    #x-link {
+        display: flex;
     }
 
     #velkommen {
@@ -263,7 +260,7 @@ figcaption{
     }
 
     h1 {
-        font-size: xxx-large;
+        font-size: xx-large;
         font-weight: 200;
     }
 
@@ -300,6 +297,10 @@ figcaption{
         margin-left: 2rem;
         max-width: calc(100% - 2rem);
         border: 2px solid #EEE;
+    }
+
+    #index-paragraph {
+        margin-right: -25vw;
     }
 
 }
