@@ -282,19 +282,5 @@ figcaption{
         margin-left: 2rem;
     }
 
-    .feilmelding1 {
-        margin-left: 2rem;
-        max-width: calc(100% - 2rem);
-        size-adjust: auto;
-        border: 2px solid #EEE;
-    }
-    
-    .ingenproblemer {
-        margin-left: 2rem;
-        max-width: calc(100% - 2rem);
-        size-adjust: auto;
-        border: 2px solid #EEE;
-    }
-
 }
 
