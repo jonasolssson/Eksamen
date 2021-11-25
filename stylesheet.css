@@ -33,6 +33,10 @@ nav {
     align-items: center;
 }
 
+.burger {
+    display: none;
+}
+
 .link-container {
     width: 80%;
     display: flex;
@@ -243,10 +247,16 @@ figcaption{
         border-bottom: 2px solid white;
     }
     .burger {
+        padding: .5rem;
+        display: flex;
         width: 3rem;
         height: 3rem;
-        border-radius: 50%;
-        background-color: rgba(50,50,50,.3);
+        /* border-radius: 50%;
+        background-color: rgba(50,50,50,.3); */
+    }
+
+    #burger-img {
+        opacity: .8;
     }
 
     .innhold {
