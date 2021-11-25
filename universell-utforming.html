@@ -27,21 +27,61 @@
     </div>
 
     <section>
-        <h2>Tenk det du</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia ut corporis id soluta minus animi modi commodi. Illum numquam cupiditate saepe, non harum consequatur, fugit sequi iste adipisci distinctio veritatis ratione accusantium facilis ab rerum suscipit illo explicabo repellat!</p>
+        <h2>Tilgjengelighetstester</h2>
+        <p>Gjennom utviklingen av nettsidene, så utførte vi flere tilgjengelighetstester av kodingen. Resultatene fra 
+            testene tok vi til oss og brukte de til å forbedre kodingen og den universelle utformingen. Vi så gjennom 
+            problemene som viste seg av testene og reflekterte rundt om dette var nødvendige og gjennomførbare forandringer vi kunne legge til.</p>
 
-        <div class="tekst-og-bilde">
+        <p>Vi har tatt i bruk en test fra <a class="hyperlinks" href="https://achecker.achecks.ca/checker/index.php " target="_blank"><i>AChecker</i></a> for å sjekke om HTML-koden var riktig.
+           <br>
+           <br>
+            I tillegg tok vi i bruk en test fra <a class="hyperlinks" href="https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input " target="_blank"><i>W3C</i></a>
+            for å sjekke om kodingen i CSS'en var riktig.
+        </p>
+
+        <h2>Testresultater og forandringer gjort i følge av disse</h2>
+        <p>Gjennom testene vi tok, så kom det nesten ikke opp noen store problemer som dere kan se i denne meldingsboksen.</p>
+        <div>
             <figure>
-            <img class="innhold-img" src="img/IMG_8515.JPG" alt="Bjørketre">
-            <figcaption>Et bjørketre</figcaption>
+             <img class="ingenproblemer" src="img/Universell Utforming_files/ingenproblemer1.png" alt="Melding om at det er ingen problemer i koden">
             </figure>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, maxime eligendi voluptate debitis laborum a ipsum odio, quis incidunt quasi pariatur blanditiis illo quae quam deleniti ut magni iusto in repudiandae voluptatibus! In odio voluptatibus reprehenderit fugiat saepe magni eaque itaque iure esse rem. Vel temporibus velit delectus, perferendis voluptates repellat eaque vero eveniet enim impedit itaque ipsam, voluptas omnis incidunt nostrum quidem fuga. Quae beatae enim libero est ad?</p>
         </div>
-        <!-- <p>fig 1.1 <span>tre og sånn</span></p> -->
 
-        <h2>Tenk dette også da</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quia incidunt, magni porro eos ab quisquam voluptates nihil nam eveniet, voluptatem debitis corporis vitae suscipit ullam architecto numquam esse non necessitatibus, saepe sunt dicta cupiditate nemo? Commodi odit totam reiciendis quos doloremque ut reprehenderit quo eius ab provident minus, repellendus facere tempora illo illum nobis incidunt rerum? Reprehenderit, corrupti recusandae!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis quam amet cumque quisquam ipsam molestiae magni quasi provident ipsa ea sint neque beatae ut, voluptatum, accusamus explicabo, maxime sapiente quis consequuntur excepturi corrupti veniam! Dolores magnam inventore explicabo culpa tenetur, ducimus cumque temporibus illum quis dolor incidunt rerum ipsam ipsum. Est aspernatur, nesciunt excepturi, reprehenderit qui impedit dolore deleniti corporis distinctio enim eveniet cumque neque cum explicabo ducimus eaque laborum dolores vitae velit. Quisquam beatae placeat, eius voluptate assumenda molestiae! In dolorum incidunt dolore sed. Eius voluptas maiores, sunt voluptatum alias ipsa velit consectetur nam hic odit. Voluptas, quia!</p>
+        <br>
+        <br>
+
+        <p>Men på «Tullogtøys» siden dukket det opp én feilmelding hvor det sto at vi 
+            ikke bør bruke "h1" tags mer enn én gang. Denne feilen gjorde at vi ble mer oppmerksomme på hvordan overskriftshierarkiet (h1, h2, h3) gjør en forskjell på hvordan nettsider tolker 
+            kode. Her skulle for eksempel "h1" kun skrives én gang fordi det skal representere hovedoverskriften/emnet for hele siden. Som et resultat ble vi også mye mer oppmerksomme på riktig bruk 
+            av alle tags videre i prosessen, slik som "strong", "em" og semantic tags.</p>
+        <p>En annen feilmelding som dukket opp var fra testen av «Aktuelt»-siden.</p>
+
+        <div>
+            <figure>
+
+             <img class="feilmelding1" src="img/Universell Utforming_files/feilmelding1.png" alt="Feilmelding for bruk av i tag istedenfor em eller strong tag">
+            </figure>
+        </div>
+
+        <br>
+        <p>Her sto det at vi heller bør ta i bruk tag «em» eller «strong» istedenfor «i». Både «em» og «strong» tagene blir 
+            brukt for å understreke og vise frem en viktig del av en tekst. Vi tok til oss denne feilmeldingen, men konkluderte med at dette ikke var et 
+            relevant problem for vår kode siden vi ikke ville understreke noe i teksten og bestemte oss for å beholde «i» tagen.</p>
+
+        <p>Ellers så fikk vi også en liste fra testene med potensielle problemer som kunne oppstå. Disse gjorde slik at vi ble mer oppmerksomme på hva vi måtte 
+            passe på når vi fortsetter å kode og gjorde at vi kunne se om det kunne oppstå mulige problemer senere i kodingen. Noen eksempler er at vi måtte fylle 
+            inn "alt-tekst" når vi legger inn bilder. Dette er en viktig faktor for det universelle designet med tanke på dette gjør nettsiden mer tilgjengelig for 
+            de med synsvansker som tar i bruk skjermleserenheter. Dette tilbyr en hørbar beskrivelse av nettsiden ved å gi tekstskrivelser til bildene.</p>
+
+    
+        <p>Noe annet vi har reflektert over i utviklingen av sidene er hvordan funksjoner som «hover» kan skape forvirring ved bytte fra stor skjerm til liten mobilskjerm. Man 
+            kan ikke benytte seg av funksjonen å «hovre» over et element med en touch-skjerm på samme måte som man kan med en stor skjerm. Slik som vi har det på nettsiden vår, 
+            så kan man dra musa over menyvalgene og dermed se de bytte farge siden dette understreker hva brukeren er i ferd med å trykke på. Det å "hover" er noe som dermed blir brukt 
+            i mindre grad på smal skjerm. </p>
+        
+        </div>
+    
+        
     </section>
 
 </body>
