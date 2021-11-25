@@ -33,6 +33,10 @@ nav {
     align-items: center;
 }
 
+.burger {
+    display: none;
+}
+
 .link-container {
     width: 80%;
     display: flex;
@@ -71,7 +75,6 @@ nav {
     z-index: -1;
     opacity: .2;
     width: 60vw;
-    size-adjust: auto;
     display: flex;
 }
 
@@ -172,7 +175,6 @@ li{
 .smartbilder{
     margin-left: 2rem;
     max-width: calc(100% - 2rem);
-    size-adjust: auto;
     border: 2px solid #EEE;
 }
 
@@ -182,18 +184,9 @@ figcaption{
     margin-bottom: 2em;
 }
 
-/* figure {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-} */
-
+#x-link {
+    display: none;
+}
 
 @media only screen and (max-width: 1150px) {
     .nav-link {
@@ -216,6 +209,8 @@ figcaption{
         justify-content: space-around;
         width: 100vw;
         transition: ease-in-out .5s;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .link-container-inaktiv {
@@ -223,7 +218,11 @@ figcaption{
     }
 
     .nav-link {
-        width: 100%;
+        width: 60%;
+    }
+
+    #x-link {
+        display: flex;
     }
 
     #velkommen {
@@ -243,10 +242,16 @@ figcaption{
         border-bottom: 2px solid white;
     }
     .burger {
+        padding: .5rem;
+        display: flex;
         width: 3rem;
         height: 3rem;
-        border-radius: 50%;
-        background-color: rgba(50,50,50,.3);
+        /* border-radius: 50%;
+        background-color: rgba(50,50,50,.3); */
+    }
+
+    #burger-img {
+        opacity: .8;
     }
 
     .innhold {
@@ -255,7 +260,7 @@ figcaption{
     }
 
     h1 {
-        font-size: xxx-large;
+        font-size: xx-large;
         font-weight: 200;
     }
 
@@ -281,6 +286,9 @@ figcaption{
     .tekst-og-bilde > p {
         margin-left: 2rem;
     }
-    
+
+    #index-paragraph {
+        margin-right: -25vw;
+    }
 }
 

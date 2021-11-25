@@ -124,6 +124,7 @@ footer{
 .overskriftoglink{
     display: flex;
     flex-direction: column;
+    width: 20em;
 }
 
 .further-link{
@@ -144,7 +145,6 @@ footer{
 .footertekst{
 font-size: xx-large;
 text-align: center;
-padding-top: 1em;
 width: 100%;
 }
 
@@ -173,6 +173,7 @@ q{
         margin-left: 5px;
         margin-right: 5px;
         align-items: center;
+        border-radius: 25px;
     }
 
     .innhold {
@@ -208,6 +209,7 @@ q{
         margin-left: 5px;
         margin-bottom: 10px;
         height: auto;
+        flex-direction: column;
     }
    
     .nav-link {
@@ -223,11 +225,11 @@ q{
         border: 2px solid#A37A74
     }
 
-    main{
-        border-radius: 25px;
+    .overskriftoglink{
+        width: auto;
     }
 
-    footer{
-        flex-direction: column;
+    .further-link{
+        text-align: center;
     }
 }
