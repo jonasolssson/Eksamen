@@ -9,7 +9,9 @@
     color: #222;
 }
 
-/*properties for body?*/
+body{
+background-color: #222;
+}
 
 a {
     text-decoration: none;
@@ -83,8 +85,12 @@ margin: 1em;
     padding: 1rem;  
 }
 
+h3{
+    padding-top: 0.5rem;
+}
+
 p {  
-    line-height: 2.5;   /*mellomrom mellom overskrifter og tekst??*/
+    line-height: 2.5;   
 }
 
 ul{
@@ -104,7 +110,7 @@ figure{
     margin-top: 2em;
 }
 
-.brownietekst{
+figcaption{
     text-align: center;
 }
 
@@ -180,6 +186,7 @@ q{
     h1 {
         font-size: xxx-large;
     }
+
 
     header {
         margin-top: 5px;
